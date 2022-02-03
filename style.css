@@ -38,11 +38,7 @@ video.fullscreen::-webkit-media-controls {
   height: 150px
 }
 
-.logo {
-  margin-top: 50px;
-  margin-left: 50px;
 
-}
 
 .nav-link {
   text-shadow: 3px 3px 0px #000000;
@@ -99,6 +95,16 @@ box-shadow: 0 0 0 .15rem;
   filter: invert(100%);
 }
 
+.nav-item {
+  /* margin-left: 5px ; */
+}
+
+.logo {
+  margin-top: 67px;
+  margin-left: 25px;
+  width: 150px;
+}
+
 @media screen and (max-width: 991px) {
   .navbar-nav {
     background-color: #fefe00;
@@ -109,7 +115,7 @@ box-shadow: 0 0 0 .15rem;
 
   .navbar-light .navbar-nav .nav-link {
     color: #000000;
-    text-shadow: 3px 3px 0px #ffffff;
+    text-shadow: 1px 1px 0px #ffffff;
   }
 
   .nav-link:focus {
@@ -128,6 +134,16 @@ box-shadow: 0 0 0 .15rem;
 
   .navbar-collapse {
     margin-top: 2rem;
+  }
+
+  .logo {
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 150px;
+  }
+
+  .navbar-toggler {
+    margin-right: 50px;
   }
 
 }
