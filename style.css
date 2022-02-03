@@ -45,12 +45,12 @@ video.fullscreen::-webkit-media-controls {
 }
 
 .nav-link {
-  text-shadow: 1px 1px 0px #000000;
+  text-shadow: 3px 3px 0px #000000;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: #FFFFFF;
-  font-weight: 600;
+  font-weight: 900;
   font-size: 1.2rem;
 }
 
@@ -82,7 +82,13 @@ video.fullscreen::-webkit-media-controls {
 
 
 .navbar-light .navbar-toggler {
-  /* color: #ffffff; */
+  border-color: white;
+}
+
+.navbar-toggler:focus {
+text-decoration: none;
+outline: 0;
+box-shadow: 0 0 0 .15rem;
 }
 
 .text-white {
@@ -103,7 +109,11 @@ video.fullscreen::-webkit-media-controls {
 
   .navbar-light .navbar-nav .nav-link {
     color: #000000;
-    text-shadow: 1px 1px 0px #ffffff;
+    text-shadow: 3px 3px 0px #ffffff;
+  }
+
+  .nav-link:focus {
+    color: #000000!important;
   }
 
   .navbar-light .navbar-nav .nav-link:hover {
