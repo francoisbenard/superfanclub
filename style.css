@@ -221,3 +221,10 @@ p {
     display: none;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .content > img {
+    width: 300px
+    
+  }
+}
